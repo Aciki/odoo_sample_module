@@ -33,7 +33,7 @@ class Student(models.Model):
     enrolled_year = fields.Selection(
         year_selection,
         string="enrolled_year",
-        default="2021",  # as a default value it would be 2019
+        default="2021",  # as a default value it would be 2021
     )
     index_number = fields.Char(string="Index number")
 
