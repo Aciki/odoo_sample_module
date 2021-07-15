@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<odoo>
+
+    <data>
+        <template id="report_setcards">
+
+            <t t-call="web.html_container">
+                <t t-call="t_m_reports.setcards_header_footer">
+                    <t t-set="doc" t-value="doc.with_context(lang=lang)" />
+                    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+                    <link href="https://fonts.googleapis.com/css2?family=Montserrat;display=swap" rel="stylesheet"/>
+
+
+                        <div class="flex-container">
+                             <t t-set="images_counter" t-value="0"/>
+<!--                            <div class="row">-->
+
+                                <t t-foreach="doc.image_id" t-as="image">
+                                    <t t-foreach="image.tag_id" t-as="tag">
+                                        <t t-if="tag.name=='sedcards'">
+                                            <t t-set="images_counter" t-value="images_counter + 1"/>
+
+                                            <t t-if="images_counter &lt; 8">
+
+<!--                                                <div class="" style="height: 200px; width: 25%;">-->
+                                                    <img   t-att-src="image.name" style="width: 24.5%;height: 194px;object-fit: contain;float;right;margin-bottom: 4px;"/>
+<!--                                                </div>-->
+
+                                                <t t-if="images_counter == 3">
+                                                    <div class="" style="display: inline-block;height: 106px; width: 24.5%;font-size:12px; padding: 10px 0;margin-bottom: 4px;">
+
+                                                        <div class="text-right" style="padding-top:10px;">
+                                                            <span t-if="doc.name" t-field="doc.name"/>
+                                                        </div>
+                                                        <div class="text-right">
+                                                            <span t-if="doc.id" t-field="doc.id" style="color:#0F9AA6"/>
+                                                        </div>
+                                                        <div class="text-right">
+                                                            <span t-if="doc.city" t-field="doc.city"/>
+                                                        </div>
+                                                        <div style="border-top:1px groove ;float:right;width:80%;height:2px;color:#0F9AA6">
+
+                                                        </div>
+
+                                                        <div class="text-right">
+                                                            <span>HEIGHT</span><span>&amp;nbsp;</span><span>&amp;bull;</span><span>&amp;nbsp;</span><span t-if="doc.kgrose" t-field="doc.kgrose"/>
+                                                        </div>
+                                                        <div class="text-right">
+                                                            <span>BUST</span><span>&amp;nbsp;</span><span t-if="doc.blusemnd" t-field="doc.blusemnd"/>
+                                                        </div>
+                                                        <div class="text-right">
+                                                            <span>WAIST</span><span>&amp;nbsp;</span><span>&amp;bull;</span><span>&amp;nbsp;</span><span t-if="doc.taille" t-field="doc.taille"/>
+                                                        </div>
+                                                        <div class="text-right">
+                                                            <span>HIPS</span><span>&amp;nbsp;</span><span>&amp;bull;</span><span>&amp;nbsp;</span><span t-if="doc.rockhose" t-field="doc.rockhose"/>
+                                                        </div>
+
+                                                        <div class="text-right">
+                                                            <span>SHOES</span><span>&amp;nbsp;</span><span>&amp;bull;</span><span>&amp;nbsp;</span><span t-if="doc.shoe_id" t-field="doc.shoe_id"/>
+                                                        </div>
+                                                        <div class="text-right">
+                                                            <span>SIZE</span><span>&amp;nbsp;</span><span>&amp;bull;</span><span>&amp;nbsp;</span><span t-if="doc.confektions_id" t-field="doc.confektions_id"/>
+                                                        </div>
+                                                        <div class="text-right">
+                                                            <span>HAIR</span><span>&amp;nbsp;</span><span>&amp;bull;</span><span>&amp;nbsp;</span><span t-if="doc.hair_color_id" t-field="doc.hair_color_id"/>
+                                                        </div>
+                                                        <div class="text-right" style="text:nowrap">
+                                                            <span>YEAR OF BIRTH</span><span>&amp;nbsp;</span><span>&amp;bull;</span><span>&amp;nbsp;</span><span>.</span><span t-if="doc.birthday" t-field="doc.birthday" t-options='{"widget": "date","format": "Y"}'/>
+                                                        </div>
+
+                                                    </div>
+
+
+
+                                                </t>
+
+
+                                            </t>
+
+                                        </t>
+                                    </t>
+                                </t>
+                            </div>
+
+
+                </t>
+            </t>
+
+
+
+
+        </template>
+
+        <template id="report_setcards_models">
+            <t t-call="web.html_container">
+                <t t-foreach="docs" t-as="doc">
+                    <t t-call="t_m_reports.report_setcards" />
+                </t>
+            </t>
+        </template>
+
+    </data>
+
+</odoo>

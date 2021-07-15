@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_courses_student,access.courses.student,model_courses_student,group_course_teacher,1,1,1,1
+access_courses_teacher,access.courses.teacher,model_courses_teacher,,1,1,1,1
+access_courses_course,access.courses.course,model_courses_course,,1,1,1,1
+
+access_insert_grades,access.insert.grades.,model_insert_grades,,1,1,1,1
+

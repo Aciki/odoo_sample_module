@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+
+    <record model="ir.ui.view" id="insert_grades_form">
+    <field name="name">view.name</field>
+    <field name="model">insert.grades</field>
+    <field name="priority" eval="16"/>
+    <field name="arch" type="xml">
+<form>
+
+
+    <field name="course_id"/>
+    <field name="student"/>
+
+     <field name="grades"/>
+
+
+</form>
+
+
+    </field>
+</record>
+
+
+     <record id="insert_grades_wizard" model="ir.actions.act_window">
+            <field name="name">Insert</field>
+           <field name="type">ir.actions.act_window</field>
+            <field name="res_model">insert.grades</field>
+            <field name="view_mode">form</field>
+              <field name="view_id" ref="insert_grades_form"/>
+            <field name="target">new</field>
+        </record>
+
+
+</odoo>

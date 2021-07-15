@@ -1,0 +1,381 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* motivo_1_report
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-27 07:06+0000\n"
+"PO-Revision-Date: 2021-04-27 07:06+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.report_motive1
+msgid ""
+"<br/>\n"
+"                        <span style=\"font-size:13px;font-weight:bold;font-family: 'Montserrat', sans-serif;\">Thank you for your order. We charge you the following service:</span>\n"
+"\n"
+"                        <br/>"
+msgstr ""
+"<br/>\n"
+"                        <span style=\"font-size:13px;font-weight:bold;font-family: 'Montserrat', sans-serif;\">Wir danken  Ihnen für Ihre  Anfrage  und bieten Ihnen  wie folgt an::</span>\n"
+"\n"
+"                        <br/>"
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.report_motive
+msgid ""
+"<br/>\n"
+"                        <span style=\"font-size:13px;font-weight:bold;font-family: 'Montserrat', sans-serif;\">We thank you for your inquiry and offer you as follows:</span>\n"
+"\n"
+"                        <br/>"
+msgstr ""
+"<br/>\n"
+"                        <span style=\"font-size:13px;font-weight:bold;font-family: 'Montserrat', sans-serif;\">Wir danken  Ihnen für Ihre  Anfrage  und bieten Ihnen  wie folgt an:</span>\n"
+"\n"
+"                        <br/>"
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.report_motive1
+msgid ""
+"<br/>\n"
+"                    <span style=\"font-size:13px;font-weight:bold;font-family: 'Montserrat', sans-serif;\">We would like to thank you for your order and look forward to further cooperation.</span>"
+msgstr ""
+"<br/>\n"
+"                    <span style=\"font-size:13px;font-weight:bold;font-family: 'Montserrat', sans-serif;\">Im Falle weiterer Fragen stehen wir ihnen jederzeit gerne zur Verfügung.</span>"
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.report_motive
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.report_motive1
+msgid ""
+"<span style=\"color:blue\" groups=\"account.group_show_line_subtotals_tax_excluded\">Amount</span>\n"
+"                                        <span groups=\"account.group_show_line_subtotals_tax_included\">Total Price</span>"
+msgstr ""
+"<span style=\"color:blue\" groups=\"account.group_show_line_subtotals_tax_excluded\">Amount</span>\n"
+"                                        <span groups=\"account.group_show_line_subtotals_tax_included\">Gesamtpreis</span>"
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.report_motive1
+msgid "<span style=\"font-size:12px\">Payment term:</span>"
+msgstr "<span style=\"font-size:12px\">Zahlungsziel:</span>"
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.report_motive
+msgid ""
+"<span style=\"font-size:13px;font-weight:bold;font-family: 'Montserrat', sans-serif;\">In case of further questions, please do not hesitate to contact us.</span>\n"
+"                        <br/>"
+msgstr ""
+"<span style=\"font-size:13px;font-weight:bold;font-family: 'Montserrat', sans-serif;\">Im Falle weiterer Fragen stehen wir ihnen jederzeit gerne zur Verfügung.</span>\n"
+"                        <br/>"
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.motivo_custom_layout_header_footer
+msgid ""
+"<span style=\"font-size:25px; white-space: nowrap;\">Pro-Forma Invoice No. "
+"</span>"
+msgstr "<span style=\"font-size:17px; white-space: nowrap;\">Rechnungen </span>"
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.motivo_custom_layout_header_footer
+msgid ""
+"<span style=\"font-weight: 900; font-size: 20px;color: blue;\">| grow your "
+"business</span>"
+msgstr ""
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.motivo_custom_layout_header_footer
+msgid "<span>  IBAN : </span>"
+msgstr ""
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.motivo_custom_layout_header_footer
+msgid "<span> ,  </span><span>IBAN :  </span>"
+msgstr ""
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.motivo_custom_layout_header_footer
+msgid "<span>,VAT </span>"
+msgstr ""
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.motivo_custom_layout_header_footer
+msgid "<span>,tax number :</span><span>29/448/32709</span>"
+msgstr "span>,Steuernummer: :</span><span>29/448/32709</span>"
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.report_motive
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.report_motive1
+msgid "<span>Disc.%</span>"
+msgstr "<span>Rabatt.%</span>"
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.motivo_custom_layout_header_footer
+msgid "<span>Tel.</span>"
+msgstr ""
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.report_motive
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.report_motive1
+msgid "<span>Total incl. VAT</span>"
+msgstr "<span>Gesamtsummeinkl. USt.</span>"
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.motivo_custom_layout_header_footer
+msgid "<span>UG |</span>"
+msgstr ""
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.report_motive
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.report_motive1
+msgid "<strong class=\"mr16\">Subtotal</strong>"
+msgstr "<strong class=\"mr16\">Zwischensumme</strong>"
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.report_motive
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.report_motive1
+msgid "Amount due"
+msgstr "FälligerBetrag"
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.motivo_custom_layout_header_footer
+msgid "Bank details"
+msgstr "Bankdaten"
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.motivo_custom_layout_header_footer
+msgid ""
+"Cancelled\n"
+"                                    Invoice No."
+msgstr ""
+"\n"
+"                                   Rechnung\t"
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.motivo_custom_layout_header_footer
+msgid "Cancelled Purchase Order No."
+msgstr "Stornierte Bestellnummer"
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.motivo_custom_layout_header_footer
+msgid "Commercial register"
+msgstr "Firmenbuch"
+
+#. module: motivo_1_report
+#: model:ir.model.fields,field_description:motivo_1_report.field_account_bank_statement_line__commitment_date
+#: model:ir.model.fields,field_description:motivo_1_report.field_account_move__commitment_date
+#: model:ir.model.fields,field_description:motivo_1_report.field_account_payment__commitment_date
+#: model:ir.model.fields,field_description:motivo_1_report.field_sale_order__commitment_date
+msgid "Commitment Date"
+msgstr "Zusagedatum"
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.motivo_custom_layout_header_footer
+msgid ""
+"Credit\n"
+"                                    Note No."
+msgstr ""
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.report_motive
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.report_motive1
+msgid "Customer number:"
+msgstr "Kundennummer:"
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.report_motive
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.report_motive1
+msgid "Date of invoice :"
+msgstr "Rechnungsdatum:"
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.motivo_custom_layout_header_footer
+msgid "Delivery note no."
+msgstr "Lieferschein nein"
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.report_motive
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.report_motive1
+msgid "Description"
+msgstr "Beschreibung"
+
+#. module: motivo_1_report
+#: model:ir.model.fields,field_description:motivo_1_report.field_account_move__display_name
+#: model:ir.model.fields,field_description:motivo_1_report.field_sale_order__display_name
+msgid "Display Name"
+msgstr "Anzeigename"
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.motivo_custom_layout_header_footer
+msgid ""
+"Draft\n"
+"                                    Invoice"
+msgstr ""
+"\n"
+"                                    Rechnungen"
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.motivo_custom_layout_header_footer
+msgid ""
+"Draft\n"
+"                                    Purchase Order No."
+msgstr ""
+"\n"
+"                                    Angebote"
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.report_motive1
+msgid "Due on:"
+msgstr "Fällig am:"
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.report_motive
+msgid "Due on::"
+msgstr "Fällig am:"
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.motivo_custom_layout_header_footer
+msgid "Head office"
+msgstr "Firmensitz"
+
+#. module: motivo_1_report
+#: model:ir.model.fields,field_description:motivo_1_report.field_account_move__id
+#: model:ir.model.fields,field_description:motivo_1_report.field_sale_order__id
+msgid "ID"
+msgstr ""
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.motivo_custom_layout_header_footer
+msgid "Invoice No."
+msgstr "Rechnungen"
+
+#. module: motivo_1_report
+#: model:ir.model,name:motivo_1_report.model_account_move
+msgid "Journal Entry"
+msgstr "Buchungssatz"
+
+#. module: motivo_1_report
+#: model:ir.model.fields,field_description:motivo_1_report.field_account_move____last_update
+#: model:ir.model.fields,field_description:motivo_1_report.field_sale_order____last_update
+msgid "Last Modified on"
+msgstr "Zuletzt geändert am"
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.motivo_custom_layout_header_footer
+msgid "MOTIVO1 UG (limited liability)"
+msgstr "MOTIVO1 UG (haftungsbeschränkt)"
+
+#. module: motivo_1_report
+#: model:ir.actions.report,name:motivo_1_report.report_quotation_motivo_custom
+msgid "MOTIVO1_QUOTATION"
+msgstr ""
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.motivo_custom_layout_header_footer
+msgid "Managing directors"
+msgstr "Geschäftsführung"
+
+#. module: motivo_1_report
+#: model:ir.model.fields,field_description:motivo_1_report.field_account_bank_statement_line__sale_order_id
+#: model:ir.model.fields,field_description:motivo_1_report.field_account_move__sale_order_id
+#: model:ir.model.fields,field_description:motivo_1_report.field_account_payment__sale_order_id
+msgid "Orders"
+msgstr "Aufträge"
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.report_motive1
+msgid "Our reference :"
+msgstr "Unsere Referenz:"
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.report_motive
+msgid "Our reference:"
+msgstr "Unsere Referenz:"
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.report_motive
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.report_motive1
+msgid "Pos."
+msgstr ""
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.report_motive
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.report_motive1
+msgid "Price per Unit"
+msgstr "Preis pro ME"
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.motivo_custom_layout_header_footer
+msgid "Purchase Order"
+msgstr "Angebote"
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.report_motive
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.report_motive1
+msgid "Quantity"
+msgstr "Menge"
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.motivo_custom_layout_header_footer
+msgid "Request for Quotation No."
+msgstr "Angebotsanfrage Nr."
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.motivo_custom_layout_header_footer
+msgid "Sales Confirmation No."
+msgstr ""
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.motivo_custom_layout_header_footer
+msgid "Sales Offer No."
+msgstr "Angebote"
+
+#. module: motivo_1_report
+#: model:ir.model,name:motivo_1_report.model_sale_order
+msgid "Sales Order"
+msgstr "Angebote"
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.report_motive
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.report_motive1
+msgid "Tax"
+msgstr "Steuer"
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.report_motive
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.report_motive1
+msgid "Tax amount"
+msgstr "Steuerbetrag"
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.report_motive
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.report_motive1
+msgid "Tax assessment"
+msgstr "Steuerbemessung"
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.report_motive
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.report_motive1
+msgid "The total amount of sales taxes included"
+msgstr "Die Gesamtsummeenthaltener Umsatzsteuern"
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.motivo_custom_layout_header_footer
+msgid ""
+"Vendor\n"
+"                                    Bill No."
+msgstr "Abo-Rechnungen"
+
+#. module: motivo_1_report
+#: model_terms:ir.ui.view,arch_db:motivo_1_report.motivo_custom_layout_header_footer
+msgid ""
+"Vendor\n"
+"                                    Credit Note No."
+msgstr ""
+"\n"
+"                                   Angebote"
