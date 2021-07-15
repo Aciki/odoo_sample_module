@@ -23,7 +23,7 @@ class Student(models.Model):
 
     @api.model
     def year_selection(self):
-        enrolled_year = 2000  # replace 2000 with your a start year
+        enrolled_year = 2021  # replace 2000 with your a start year
         year_list = []
         while enrolled_year != 2030:  # replace 2030 with your end year
             year_list.append((str(enrolled_year), str(enrolled_year)))
@@ -33,7 +33,7 @@ class Student(models.Model):
     enrolled_year = fields.Selection(
         year_selection,
         string="enrolled_year",
-        default="2019",  # as a default value it would be 2019
+        default="2021",  # as a default value it would be 2019
     )
     index_number = fields.Char(string="Index number")
 
